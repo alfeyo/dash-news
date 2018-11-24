@@ -20,7 +20,11 @@ class App extends Component {
       </ul>
     </div>
   </nav>
+  <div className="regions">
+  <a href="#" className="africa">Africa</a>
+  <a href="#" className="asia">Asia</a>
 
+  </div>
   <ul className="sidenav" id="mobile-demo">
     <li><a href="sass.html">Sass</a></li>
     <li><a href="badges.html">Components</a></li>
@@ -28,7 +32,22 @@ class App extends Component {
     <li><a href="mobile.html">Mobile</a></li>
   </ul>
 
-   </div>
+  <div className="news-article">
+    <div className="card">
+      <div className="card-image waves-effect waves-block waves-light">
+        <img className="activator" src="images/office.jpg" alt="Image..."/>
+      </div>
+      <div className="card-content">
+        <span className="card-title activator grey-text text-darken-4">News Headline <i class="fa fa-chevron-circle-up"></i></span>
+        
+      </div>
+      <div class="card-reveal">
+        <span className="card-title grey-text text-darken-4">News headline &nbsp;<i class="fa fa-times-circle"></i></span>
+        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      </div>
+    </div>
+    </div>
+  </div>
 
    
     );

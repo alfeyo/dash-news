@@ -25,7 +25,35 @@ text-align: left;
 .App-link {
   color: #61dafb;
 }
+.news-article{
+  display: inline-block;
+  width: 25%;
+}
 
+.news-article img{
+  min-height: 200px;
+}
+.news-article img:hover{
+  box-shadow: 0px 0px 0px 0px rgba(rgb(22, 22, 22), rgb(20, 20, 20), rgb(24, 24, 26), 0.5);
+}
+.fa-times-circle{
+  box-sizing: border-box;
+  color:#d41010;
+  border:0px solid transparent;
+}
+.fa-chevron-circle-up{
+  color:#097;
+}
+
+.regions{
+width: 100%;
+}
+.regions a{
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  border-radius: 25%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
