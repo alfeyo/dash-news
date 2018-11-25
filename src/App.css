@@ -1,3 +1,8 @@
+body{
+  
+  background-image:url("http://i.imgur.com/7rWwbHY.jpg");
+  background-size: cover;
+}
 .App {
   text-align: center;
 }
@@ -27,7 +32,8 @@ text-align: left;
 }
 .news-article{
   display: inline-block;
-  width: 25%;
+  width: 24%;
+  margin-left: 10px;
 }
 
 .news-article img{
@@ -45,14 +51,40 @@ text-align: left;
   color:#097;
 }
 
-.regions{
-width: 100%;
+.categories{
+  margin-top:0px;
+  width: 100%;
+  background:#c80000;
+
 }
-.regions a{
+.categories a{
+  text-align: center;
   display: inline-block;
-  width: 400px;
-  height: 200px;
-  border-radius: 25%;
+  color:#fff;
+  width: 100px;
+  line-height:35px;
+  height: 35px;
+  border-radius: 0px;
+  margin:0 auto;
+  margin-left:25px;
+  font-weight: 500;
+}
+.categories a:hover{
+  background: #ffff;
+  color:#000;
+}
+span.text-darken-4{
+  font-size: 0.9em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media only screen and (max-width:1024px){
+  body{
+    background:rgba(241, 241, 241);
+  }
+  .news-article{
+    width: 100%;
+  }
 }
 @keyframes App-logo-spin {
   from {
